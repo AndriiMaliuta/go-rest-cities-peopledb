@@ -29,6 +29,8 @@ func main() {
 	if err != nil {
 		log.Println(err)
 	}
+	//var ctr models.Country
 	ctr := ctrs[0]
-	fmt.Println(ctr)
+
+	fmt.Println(ctr.Name)
 }
