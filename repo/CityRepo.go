@@ -14,7 +14,6 @@ func initDb() *sql.DB {
 	if err != nil {
 		log.Panicln(err)
 	}
-
 	//defer db.Close()
 
 	err = db.Ping()

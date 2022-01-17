@@ -31,6 +31,10 @@ func main() {
 	}
 	//var ctr models.Country
 	ctr := ctrs[0]
+	for i, country := range ctrs {
+		fmt.Println(country, i)
+	}
 
 	fmt.Println(ctr.Name)
+
 }

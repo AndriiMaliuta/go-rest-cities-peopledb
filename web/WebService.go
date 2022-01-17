@@ -1,19 +1,20 @@
 package web
 
 import (
+	"fmt"
 	"io/ioutil"
 	"log"
 	"net/http"
 )
 
-func GetCities() []byte {
-	resp, err := http.Get("https://restcountries.com/v3.1/capital/Lima")
+func GetCity(name string) []byte {
+	resp, err := http.Get(fmt.Sprintf("https://restcountries.com/v3.1/capital/%s", name))
 	if err != nil {
 		log.Println(err)
 	}
-	webCities, err := ioutil.ReadAll(resp.Body)
+	webCity, err := ioutil.ReadAll(resp.Body)
 	//return string(webCities)
-	return webCities
+	return webCity
 }
 
 func GetCountries() []byte {
