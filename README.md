@@ -6,4 +6,4 @@ Data can be retrieved in CLI and via REST API endpoints
 
 Data Models:
 
-![Untitled](https://user-images.githubusercontent.com/36703491/150514035-b83dd53c-6882-452e-bfd4-736f1bcd4b40.png)
+![Untitled](https://user-images.githubusercontent.com/36703491/150514285-886bd4f9-294d-4d4a-b159-f675eed1878b.png)
